@@ -1,1 +1,1 @@
-Shoo get out leave this is a project for code camp
+Shoo get out leave
