@@ -15,6 +15,16 @@
                 margin-left: 0.5dvw;
                 min-height: 100dvh; 
             }
+
+            #mobile_only {
+                display: none;
+            }
+
+            @media (max-width: 768px) {
+                #mobile-only {
+                    display: block;
+                }
+            }
         </style>
     </head>
     <body>
@@ -27,7 +37,7 @@
             </button>
         </a>
         <a href="donut.html">
-            <button>
+            <button>#
                 Donut Nutrition Facts
             </button>
         </a>
@@ -47,6 +57,7 @@
             </button>
         </a>
         <p style="margin-top: 30px;">All credit to <a href="https://www.khanacademy.org/">Khan Academy.</a></p>
+        <p id="mobile_only">This text can only be seen on mobile!  Try going on desktop and see!</p>
         <div style="text-align: center;">
             <button style="margin-top: 350dvh;">
                 Useless Button
